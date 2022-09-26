@@ -7,7 +7,6 @@
 | :rocket: URL         | https://url-deploy.com.br
 | :fire: Desafio     | https://github.com/JoaoIto/To-do-List
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
 <img src="./assets/img/Print.jpeg#vitrinedev"> 
 
 ---
