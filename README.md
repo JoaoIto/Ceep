@@ -4,7 +4,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **To-do-List**
 | :label: Tecnologias | javascript, html, css, 
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://github.com/JoaoIto/To-do-List
 | :fire: Desafio     | https://github.com/JoaoIto/To-do-List
 
 <img src="./assets/img/Print.jpeg#vitrinedev"> 
