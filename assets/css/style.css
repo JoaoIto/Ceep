@@ -1,4 +1,5 @@
 body {
+  font-family: 'Inter', sans-serif;
   margin: 0;
 }
 
@@ -11,11 +12,12 @@ body {
 }
 
 .todo-list {
-  background-color: #0B2027;
-  font-family: "Space Mono", monospace;
-  padding: 1rem;
-  min-width: 400px;
+  background-color: #44578a;
+  font-family: 'Inter', sans-serif;
+  padding: 1.2rem;
+  width: 400px;
   min-height: 300px;
+  border-radius: 10px;
 }
 
 .title {
@@ -32,32 +34,10 @@ body {
 
 .form-input,
 .form-button {
+  font-family: 'Inter', sans-serif;
   border-radius: 0;
   padding: 0.75rem;
   font-size: 0.75rem;
-}
-
-.form-input {
-  outline: none;
-  background-color: #F6F1D1;
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-.form-button {
-  border: 1px;
-  background: #F6F1D1;
-  text-transform: uppercase;
-  cursor: pointer;
-  margin-left: 0.25rem;
-}
-
-.form-button:hover {
-  color: #F6F1D1;
-  background: rgba(246, 241, 209, 0.1);
-}
-
-body {
-  margin: 0;
 }
 
 .app {
@@ -66,14 +46,6 @@ body {
   justify-content: center;
   width: 100vw;
   min-height: 100vh;
-}
-
-.todo-list {
-  background-color: #0B2027;
-  font-family: "Space Mono", monospace;
-  padding: 1rem;
-  min-width: 400px;
-  min-height: 300px;
 }
 
 .title {
@@ -87,26 +59,34 @@ body {
   display: flex;
   justify-content: center;
 }
-.form-input, .form-button {
-  border-radius: 0;
+
+.form-input, .form-button, .data {
+  color: #fff;
+  background-color: #889edb;
+  border-radius: 10px;
   padding: 0.75rem;
+  margin: .20rem;
   font-size: 0.75rem;
+  border: none;
 }
+
 .form-input {
   outline: none;
-  background-color: #F6F1D1;
-  border-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
+
 .form-button {
   border: 1px;
-  background: #F6F1D1;
+  color: #fff;
   text-transform: uppercase;
   cursor: pointer;
   margin-left: 0.25rem;
+  transition: .25s;
 }
-.form-button:hover {
+
+.form-button:active {
   color: #F6F1D1;
-  background: rgba(246, 241, 209, 0.1);
+  background: #2b4796;
 }
 
 .list {
@@ -122,49 +102,49 @@ body {
   justify-content: space-between;
   margin-bottom: 0.5rem;
   padding: 1rem 3rem;
+  border-radius: 10px;
 }
 
-.check-button, .delete-button {
-  background-color: #F6F1D1;
+.check-button {
+  font-family: 'Inter', sans-serif;
+  height: 40px;
+  font-size: 0.75rem;
+  background-color: #889edb;
+  color: #fff;
   border: none;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px rgba(167, 167, 167, 0.3);
   outline: none;
-  border-radius: 2px;
+  border-radius:10px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.check-button:active{
+  background-color: #2b4796;
+}
+
+.delete-button{
+  color: #fff;
+  border: none;
+  background-color: rgb(204, 166, 85);
+  border-radius:10px;
+  transition: .25s;
   cursor: pointer;
 }
 
-.task.done .check-button {
-  background-color: #46494C;
-  color: #F6F1D1;
-}
-
-.check-icon {
-  display: block;
-  padding: 1px;
-  width: 10px;
-  height: 10px;
-  background-color: transparent;
-  border-radius: 50%;
-}
-
-.task.done .check-icon {
-  background-color: #0B2027;
+.delete-button:hover{
+  background-color: rgb(221, 105, 38);
 }
 
 .content {
   margin: 0;
 }
 
-.content-data { 
-  color: #F6F1D1;
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 0.5rem;
-  padding: 1rem 3rem;
-}
-
-.task.done .content {
-  text-decoration: line-through;
+@media screen and (max-width: 900px){
+  body{
+    overflow-x: hidden;
+    width: 80vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
