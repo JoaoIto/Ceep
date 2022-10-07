@@ -140,8 +140,8 @@ body {
   .todo-list{
     width: 300px;
   }
-  .form-input{
-    width: 120px;
+  .form-input, .data{
+    width: 80px;
   }
 }
 
