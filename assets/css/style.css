@@ -70,11 +70,6 @@ body {
   border: none;
 }
 
-.form-input {
-  outline: none;
-  color: #fff;
-}
-
 .form-button {
   border: 1px;
   color: #fff;
@@ -144,6 +139,9 @@ body {
 @media screen and (max-width: 600px){
   .todo-list{
     width: 300px;
+  }
+  .form-input{
+    width: 120px;
   }
 }
 
