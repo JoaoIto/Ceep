@@ -70,6 +70,10 @@ body {
   border: none;
 }
 
+.form-input::placeholder{
+  color: #fff;
+}
+
 .form-button {
   border: 1px;
   color: #fff;
@@ -98,6 +102,10 @@ body {
   margin-bottom: 0.5rem;
   padding: 1rem 3rem;
   border-radius: 10px;
+}
+
+.done{
+  color: #8dc8eb52;
 }
 
 .check-button {
