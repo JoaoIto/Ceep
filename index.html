@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/img/task.png" />
-    <link rel="stylesheet" href="./src/assets/styles/output.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/assets/styles/output.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=BioRhyme&amp;family=Space+Mono&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <title>Ceep</title>
+</head>
+
+<body class="
+w-screen 
+h-screen">
+  <div class="
+  flex 
+  items-center 
+  justify-center
+  w-full
+  h-full 
+  ">
+    <div class="
+    w-96 
+    h-80
+    bg-sky-400
+    rounded-2
+    p-2
+    ">
     
-    <title>Ceep</title>
-  </head>
-  <body>
-    <div id="app">
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
+      <h1 class="text-3xl text-red">
+        Ceep
       </h1>
+
+      <form class="form" action="">
+        <input class="form-input" type="text" data-form-input placeholder="Escreva sua tarefa:">
+
+        <input class="data" type="datetime-local" placeholder="DATA" data-form-date>
+        <button class="form-button" data-form-button> Novo Item </button>
+      </form>
+
+      <ul class="list" data-list>
+
+      </ul>
     </div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"></script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
