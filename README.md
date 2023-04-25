@@ -1,12 +1,6 @@
-# [To-do-List 📝](https://joaoito.github.io/To-do-List/)
+# To-do-List 📝
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **To-do-List**
-| :label: Tecnologias | javascript, html, css, 
-| :rocket: URL         | https://github.com/JoaoIto/To-do-List
-| :fire: Desafio     | **Learn how the Storage API works;**
-
+The new version ToDoList build and developming in TypeScript! <img src="./.github/public/typescript.svg">
 <img src="https://raw.githubusercontent.com/JoaoIto/To-do-List/main/assets/img/printTask.png#vitrinedev"> 
 
 ---
